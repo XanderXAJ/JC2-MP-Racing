@@ -12,7 +12,7 @@ settings.forceCourse = ""
 
 settings.debugLevel = 1
 
-settings.name = "JC2-MP-Racing"
+settings.name = "JC2-MP-Racing @ JC2Racing.com"
 settings.version = "0.7.5"
 if settings.debugLevel > 1 then
 	settings.version = settings.version.." (debug)"
@@ -33,16 +33,16 @@ settings.outOfVehicleMaxSeconds = 20
 settings.vehicleRepairAmount = 0.05
 settings.prizeMoneyDefault = 10000
 settings.prizeMoneyMultiplier = 0.75
-settings.playerFinishRemoveDelay = 12
+settings.playerFinishRemoveDelay = 120
 settings.lapsMult = 1
 if debug.oneLap then settings.lapsMult = 0 end
 
 -- Public races
 settings.command = "/race"
-settings.raceJoinWaitSeconds = 110
+settings.raceJoinWaitSeconds = 180
 
 settings.admins = {
-	SteamId("76561197985532207") , -- dreadmullet
+	SteamId("76561197993497220") , -- Unmoon
 }
 
 settings.WTF = false
