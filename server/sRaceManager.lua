@@ -61,9 +61,7 @@ function RaceManager:CreateRace(name , isPublic , course , players)
 	
 	local race = Race(name , self , World.Create() , course)
 	race.isPublic = isPublic
-	if math.random() >= 0.5 then
-		race.vehicleCollisions = false
-	end
+	race.vehicleCollisions = false
 	table.insert(self.races , race)
 	
 	race:SetState("StateAddPlayers")
