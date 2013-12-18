@@ -32,12 +32,6 @@ function Racer:__init(race , player)
 	-- Helps with preventing respawning the player every tick.
 	self.respawnTimer = nil
 	
-	if race.raceManager:GetIsAdmin(player) then
-		player:SetModelId(settings.playerModelIdAdmin)
-	else
-		player:SetModelId(table.randomvalue(settings.playerModelIds))
-	end
-	
 	local args = {}
 	args.version = settings.version
 	args.stateName = self.race.stateName
