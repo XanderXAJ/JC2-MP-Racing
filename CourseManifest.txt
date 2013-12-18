@@ -1,12 +1,12 @@
 BandarSelekeh
 BerawanBesarSplit
 CapeCarnival
-CarVHelicopter
+#CarVHelicopter
 # CliffRacer -- not very good
 CliffsOfFear
 ClusterfuckingLimousines
 DasPhailenring
-DesertBus
+#DesertBus
 DirtTrackEast
 EastBerawanTouge
 EndlessCoast
@@ -24,9 +24,9 @@ SelatanBackcountry
 SidewalkBlazer
 SkiSlopeSkydive
 SkullIslandRollercoaster
-SonOfABeach
+#SonOfABeach
 SoutheastBerawanTouge
-SpiderRico
+#SpiderRico
 ThreeKingsComplex
 ThreeKingsHighJinks
 ThreeKingsTriangle
