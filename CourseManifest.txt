@@ -2,20 +2,20 @@ BandarSelekeh
 BerawanBesarSplit
 CapeCarnival
 CarVHelicopter
-# CliffRacer -- not very good
+CliffRacer
 CliffsOfFear
-ClusterfuckingLimousines
+# ClusterfuckingLimousines
 DasPhailenring
-DesertBus
+# DesertBus
 DirtTrackEast
 EastBerawanTouge
 EndlessCoast
-FacepalmPond
+# FacepalmPond
 HillclimbDesertHighlands
 Icewheels
 LostIslandRally
 MileHighClubMadness
-MileHighClubDive1
+# MileHighClubDive1
 PanauCanals
 ReapersRun
 RedMountainPlunge
@@ -33,4 +33,4 @@ ThreeKingsTriangle
 Vortex
 WestBerawanTouge
 
-DLCTest
+# DLCTest
