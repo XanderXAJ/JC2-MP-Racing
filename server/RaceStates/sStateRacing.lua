@@ -65,6 +65,7 @@ function StateRacing:End()
 	
 	Utility.EventUnsubscribeAll(self)
 	Utility.NetUnsubscribeAll(self)
+	self.race.raceManager:CreateRacePublic()
 	
 end
 
