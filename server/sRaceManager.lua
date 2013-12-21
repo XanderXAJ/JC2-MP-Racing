@@ -99,6 +99,9 @@ function RaceManager:RemoveRace(raceToRemove)
 		end
 	end
 	
+	if raceToRemove == self.currentPublicRace then
+		self:CreateRacePublic()
+	end
 end
 
 function RaceManager:GetIsAdmin(player)
