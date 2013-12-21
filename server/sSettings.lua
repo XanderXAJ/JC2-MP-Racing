@@ -21,6 +21,7 @@ end
 settings.coursesPath = "courses/"
 
 settings.doPublicRaces = true
+settings.simultaneousPublicRaces = true
 
 settings.textColorGlobal = Color(250 , 157 , 133 , 255) -- Light red-orange.
 settings.textColorLocal =  Color(255 , 80 , 36 , 255) -- Full red-orange.
