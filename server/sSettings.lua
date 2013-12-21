@@ -33,7 +33,7 @@ settings.outOfVehicleMaxSeconds = 20
 settings.vehicleRepairAmount = 0.05
 settings.prizeMoneyDefault = 10000
 settings.prizeMoneyMultiplier = 0.75
-settings.playerFinishRemoveDelay = 12
+settings.playerFinishRemoveDelay = 120
 settings.lapsMult = 1
 if debug.oneLap then settings.lapsMult = 0 end
 
