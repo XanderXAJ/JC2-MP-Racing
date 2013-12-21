@@ -20,7 +20,11 @@ end
 
 settings.coursesPath = "courses/"
 
+-- Automatically create races that anyone can join
 settings.doPublicRaces = true
+-- If false, another public race will only be created once the previous race has finished
+-- If true, there will always be a public race to join
+-- (another race will be created once the previous public race stops accepting players)
 settings.simultaneousPublicRaces = true
 
 settings.textColorGlobal = Color(250 , 157 , 133 , 255) -- Light red-orange.
