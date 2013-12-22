@@ -97,6 +97,11 @@ function RaceManager:RemoveRace(raceToRemove)
 		end
 	end
 	
+	-- If we're just running single races, we should start a new one
+	-- when the previous one has terminated
+	if not settings.simultaneousPublicRaces and raceToRemove == self.currentPublicRace then
+		self:CreateRacePublic()
+	end
 end
 
 function RaceManager:GetIsAdmin(player)
